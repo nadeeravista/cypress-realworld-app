@@ -43,6 +43,7 @@ const App: React.FC = () => {
   return (
     <div className={classes.root}>
       <CssBaseline />
+      <div>Nadeera</div>
 
       {isLoggedIn && (
         <PrivateRoutesContainer
